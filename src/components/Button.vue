@@ -1,3 +1,12 @@
+<script setup lang="ts">
+type Props = {
+    text: String
+}
+defineProps<Props>();
+</script>
+
 <template>
-  <button>test</button>
+    <div>
+        <button>{{text}}</button>
+    </div>
 </template>

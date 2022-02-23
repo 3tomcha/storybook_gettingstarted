@@ -12,6 +12,23 @@
   </div>
 </template>
 
+<script lang="ts">
+type Nantoka = {
+  nantoka: "abc"
+}
+export default {
+  setup() {
+    const nantoka: Nantoka = {
+      gohan: "taberu"
+    };
+    return {
+      nantoka
+    }
+ 
+  },
+}
+</script>
+
 <style scoped>
 .item {
   margin-top: 2rem;
